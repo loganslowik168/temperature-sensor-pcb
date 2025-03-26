@@ -5,240 +5,6 @@
 	(uuid "81d443e3-ba1c-446b-9993-4a57d2542686")
 	(paper "A3")
 	(lib_symbols
-		(symbol "AD589MH:AD589MH"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -4.7619 4.2272 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AD589MH"
-				(at -5.6219 -10.4552 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AD589MH:TO127P557X381-2P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Analog Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Two-Terminal IC 1.2 V Reference"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "TO-51-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "AD589MH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "TO-51-2 Analog Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_FARNELL" "unknown"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD589MH/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "AD589MH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "Analog Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OC_NEWARK" "05F7072"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/AD589MH/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "AD589MH_0_0"
-				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 2.54)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -360,130 +126,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -1283,16 +925,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "+\nVout\n-"
-		(exclude_from_sim no)
-		(at 193.04 123.698 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "3ed2cd7b-64d2-44d4-ae31-d1ee2785ab9f")
-	)
 	(text "2.7V < V+ < 5.5V\nKeep capacitor\nnear V+ terminal"
 		(exclude_from_sim no)
 		(at 119.38 74.422 0)
@@ -1314,40 +946,10 @@
 		(uuid "f4e0e6db-6b23-4978-a306-a87b28370d4c")
 	)
 	(junction
-		(at 137.16 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dbf0cb7-591d-4e96-abb7-436268fafb4e")
-	)
-	(junction
-		(at 177.8 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b71519ba-fccf-4a87-add6-2cb230b48fc0")
-	)
-	(junction
-		(at 156.21 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd2628c5-0d1a-4e9a-90a9-da813985c973")
-	)
-	(junction
 		(at 124.46 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e73b5bfe-f529-4c61-bc59-597dc29149b9")
-	)
-	(junction
-		(at 177.8 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9cc348e-1489-414a-b9eb-28929ed0a421")
-	)
-	(junction
-		(at 177.8 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecf07829-cc34-4131-a2b5-fd3c508bd34a")
 	)
 	(wire
 		(pts
@@ -1371,23 +973,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 146.05 114.3)
+			(xy 187.96 99.06) (xy 187.96 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d2d8441-d7f3-4cb9-99d4-8c29071aaaa0")
-	)
-	(wire
-		(pts
-			(xy 118.11 114.3) (xy 118.11 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26af2a63-ebf0-4400-bda1-e28b52b304c2")
+		(uuid "29e6e3bf-d45c-4cbe-a66c-cb6a631b56af")
 	)
 	(wire
 		(pts
@@ -1401,23 +993,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 124.46 99.06)
+			(xy 160.02 99.06) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d7394a5-caf7-45cb-9f15-559a7d87587c")
+		(uuid "4725abf6-e9df-407c-9331-2fec95d484ca")
 	)
 	(wire
 		(pts
-			(xy 177.8 125.73) (xy 177.8 128.27)
+			(xy 119.38 106.68) (xy 119.38 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e477711-9afc-4536-81a3-f26bb7c69116")
+		(uuid "4765ff2e-faa3-4550-bffd-74ed226076de")
 	)
 	(wire
 		(pts
@@ -1428,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "48285ec1-6e84-459a-bc3a-18db2ec3459b")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acc6da4-a47b-4ad7-b1a7-0c7392479461")
 	)
 	(wire
 		(pts
@@ -1448,16 +1050,6 @@
 			(type default)
 		)
 		(uuid "5969f359-5bf8-4774-b2c8-6fdb58ab5c04")
-	)
-	(wire
-		(pts
-			(xy 137.16 114.3) (xy 118.11 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a9b9410-ce61-43e6-b6f6-38a7a329fd36")
 	)
 	(wire
 		(pts
@@ -1491,36 +1083,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 142.24) (xy 191.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820a369a-d785-46cd-bb79-0bf4c639a18b")
-	)
-	(wire
-		(pts
-			(xy 146.05 125.73) (xy 146.05 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ace745f-ea01-467f-953f-3baf71a9b0c2")
-	)
-	(wire
-		(pts
-			(xy 187.96 60.96) (xy 187.96 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4e5e36-2a2d-4c8a-b5a6-82054b8ee862")
-	)
-	(wire
-		(pts
 			(xy 130.81 68.58) (xy 130.81 83.82)
 		)
 		(stroke
@@ -1528,16 +1090,6 @@
 			(type default)
 		)
 		(uuid "9014e537-4eca-4663-bb5f-40e8993a70f1")
-	)
-	(wire
-		(pts
-			(xy 156.21 149.86) (xy 156.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ff33c2-bf5f-45f7-a5df-3cad2d6ff489")
 	)
 	(wire
 		(pts
@@ -1551,26 +1103,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 149.86) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c30326-3927-48c7-95d6-7b673c0bb48a")
-	)
-	(wire
-		(pts
-			(xy 177.8 147.32) (xy 177.8 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96aab046-5fed-48de-8a64-f6dd93481339")
-	)
-	(wire
-		(pts
 			(xy 104.14 68.58) (xy 104.14 118.11)
 		)
 		(stroke
@@ -1581,36 +1113,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 149.86) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c9786e-33d5-4385-bd1c-dc19bac4c985")
-	)
-	(wire
-		(pts
-			(xy 177.8 137.16) (xy 177.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a272d926-8ee4-4b77-a71f-5470d188d985")
-	)
-	(wire
-		(pts
-			(xy 160.02 99.06) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96fb0ea-9364-4090-9202-72173e90838f")
-	)
-	(wire
-		(pts
 			(xy 130.81 83.82) (xy 124.46 83.82)
 		)
 		(stroke
@@ -1618,56 +1120,6 @@
 			(type default)
 		)
 		(uuid "c4027088-3f3d-4fe3-8e56-97328accc3c5")
-	)
-	(wire
-		(pts
-			(xy 177.8 111.76) (xy 187.96 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5bc259-1cb8-4b16-9e9e-012b7f680c50")
-	)
-	(wire
-		(pts
-			(xy 177.8 111.76) (xy 177.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e01b63-24d8-4955-89d1-4e16d58c971f")
-	)
-	(wire
-		(pts
-			(xy 177.8 137.16) (xy 191.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db06a788-d939-4363-84b3-a0f77427a94a")
-	)
-	(wire
-		(pts
-			(xy 177.8 123.19) (xy 177.8 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba226bc-169c-4530-b706-b6916ef2b451")
-	)
-	(wire
-		(pts
-			(xy 177.8 135.89) (xy 177.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9cd398e-f2e7-4918-b2b4-dbd6157548c0")
 	)
 	(wire
 		(pts
@@ -1691,36 +1143,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 109.22) (xy 177.8 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa659c71-8017-410b-99c8-292a6310ff9b")
-	)
-	(wire
-		(pts
-			(xy 177.8 99.06) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc89cddb-7d40-4b8d-a049-d1e00d3e442d")
-	)
-	(wire
-		(pts
-			(xy 177.8 125.73) (xy 146.05 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe005ba6-b04e-42da-a33f-8344edb92b95")
-	)
-	(wire
-		(pts
 			(xy 115.57 83.82) (xy 111.76 83.82)
 		)
 		(stroke
@@ -1728,208 +1150,6 @@
 			(type default)
 		)
 		(uuid "fe479d46-06ce-4a8c-9af7-027441aa2c1f")
-	)
-	(symbol
-		(lib_id "AD589MH:AD589MH")
-		(at 134.62 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02d6c339-571c-4848-9ead-3befa405d4eb")
-		(property "Reference" "U4"
-			(at 143.51 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "AD589MH"
-			(at 143.51 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "1_my_custom_library:AD589MH"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Two-Terminal IC 1.2 V Reference"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "TO-51-2"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AD589MH"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TO-51-2 Analog Devices"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "unknown"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD589MH/Analog+Devices/view-part/?ref=snap"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "AD589MH"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "Analog Devices"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" "05F7072"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/AD589MH/Analog+Devices/view-part/?ref=eda"
-			(at 134.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ade9106-12fa-408f-857d-5ed9a7f30077")
-		)
-		(pin "2"
-			(uuid "43becd5e-30f3-4b66-97d3-27b2f901a53e")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2065,35 +1285,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 143.51 0)
+		(lib_id "power:GND")
+		(at 119.38 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "499e9fbc-706b-4100-809f-d24104adf6da")
-		(property "Reference" "R10"
-			(at 180.34 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "182k"
-			(at 180.34 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 176.022 143.51 90)
+		(uuid "40b6612f-54a2-4597-84b6-aef5e3865ba9")
+		(property "Reference" "#PWR03"
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,8 +1303,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 143.51 0)
+		(property "Value" "GND"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,8 +1320,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 177.8 143.51 0)
+		(property "Datasheet" ""
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,16 +1329,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3ec22cc2-ee5c-4dcd-a075-c120a39776d8")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "74573bc4-86ec-41fa-a68d-3737d14c804a")
+			(uuid "03bf36cd-e16c-4c4e-9fa6-0bee7980a8c3")
 		)
 		(instances
 			(project "temperature_sensor"
 				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "R10")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2339,72 +1555,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "591faaa7-9331-4281-87a6-d0b442317253")
-		(property "Reference" "#PWR011"
-			(at 191.77 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a81ca05-a68a-47fb-85e7-2f7a4ffe6c93")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 111.76 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2588,282 +1738,6 @@
 			(project ""
 				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3b0386a-85f2-42c6-b190-7f0bb78a8a17")
-		(property "Reference" "R9"
-			(at 180.34 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.34 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 176.022 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e254dd7f-7a36-4527-ac5c-8587a2b5aae0")
-		)
-		(pin "1"
-			(uuid "9f864cf4-3322-4d87-ae6e-fea12d9c266c")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf4d9563-f972-4c67-845b-1ef4b48c3e3e")
-		(property "Reference" "#PWR08"
-			(at 156.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05ca31cb-9e74-40a8-9c71-72655bd4b9df")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcb9303d-bdf8-4e55-abeb-bfdfa4ed7c8d")
-		(property "Reference" "R8"
-			(at 180.34 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 180.34 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 176.022 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e455557-3d7b-4637-a5f5-7a303d1590f3")
-		)
-		(pin "1"
-			(uuid "82daf4c5-cd53-4d1c-89dc-20afbe49c5e6")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efcd9f41-2187-4453-bd36-6494cd28f016")
-		(property "Reference" "R7"
-			(at 180.34 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "45.3k"
-			(at 180.34 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 176.022 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3ceead9-e2a8-4198-b3ed-251e6453540a")
-		)
-		(pin "1"
-			(uuid "ab07c38b-0416-4ce6-9b22-0a3f4c85d0e3")
-		)
-		(instances
-			(project "temperature_sensor"
-				(path "/81d443e3-ba1c-446b-9993-4a57d2542686"
-					(reference "R7")
 					(unit 1)
 				)
 			)
