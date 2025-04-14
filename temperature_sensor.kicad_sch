@@ -7606,7 +7606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRGP2512F820R:RESC6332X65N"
+		(property "Footprint" "1_my_custom_library:RESC6332X65N"
 			(at 49.53 262.89 0)
 			(effects
 				(font
@@ -8016,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23_3L_ONS"
+		(property "Footprint" "1_my_custom_library:SOT-23_3L_ONS"
 			(at 58.42 252.73 0)
 			(effects
 				(font

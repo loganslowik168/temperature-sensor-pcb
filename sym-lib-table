@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "10kresistor")(type "KiCad")(uri "C:/Users/heyin/Documents/KiCad Libraries/MFR_25FRF52_10K/KiCADv6/2025-04-13_04-38-27.kicad_sym")(options "")(descr ""))
+  (lib (name "bjt")(type "KiCad")(uri "C:/Users/heyin/Documents/KiCad Libraries/MMBT3904LT1G/KiCADv6/2025-04-14_01-17-16.kicad_sym")(options "")(descr ""))
+  (lib (name "CRGP2512F820R")(type "KiCad")(uri "C:/Users/heyin/Documents/KiCad Libraries/CRGP2512F820R/CRGP2512F820R.kicad_sym")(options "")(descr ""))
+)
