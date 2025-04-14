@@ -4980,7 +4980,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 273.05) (xy 57.15 271.78)
+			(xy 57.15 276.86) (xy 57.15 271.78)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 273.05) (xy 57.15 273.05)
+			(xy 46.99 276.86) (xy 57.15 276.86)
 		)
 		(stroke
 			(width 0)
@@ -5097,16 +5097,6 @@
 			(type default)
 		)
 		(uuid "b8e806a6-6a39-4939-a57a-fa5736bc4b7b")
-	)
-	(wire
-		(pts
-			(xy 46.99 252.73) (xy 49.53 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb3f15c5-d3d4-4927-977b-a3b93fe4c6ed")
 	)
 	(wire
 		(pts
@@ -5350,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 110.49) (xy 46.99 252.73)
+			(xy 46.99 110.49) (xy 46.99 256.54)
 		)
 		(stroke
 			(width 0)
@@ -7580,7 +7570,7 @@
 	)
 	(symbol
 		(lib_id "CRGP2512F820R:CRGP2512F820R")
-		(at 49.53 262.89 270)
+		(at 46.99 266.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7589,7 +7579,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab90e301-c52b-41bd-8276-96a7776df10d")
 		(property "Reference" "R4"
-			(at 53.34 261.6199 90)
+			(at 50.8 265.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7588,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 53.34 264.1599 90)
+			(at 50.8 267.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7597,7 @@
 			)
 		)
 		(property "Footprint" "1_my_custom_library:RESC6332X65N"
-			(at 49.53 262.89 0)
+			(at 46.99 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 262.89 0)
+			(at 46.99 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7616,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 262.89 0)
+			(at 46.99 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
